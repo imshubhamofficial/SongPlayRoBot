@@ -8,18 +8,6 @@ from TamilBots import app, LOGGER
 from TamilBots.TamilBots import ignore_blacklisted_users
 from TamilBots.sql.chat_sql import add_chat_to_db
 
-start_text = """
-வணக்கம்! [{}](tg://user?id={}),
-
-நான் SongPlayRoBot! [🎶](https://t.me/tamilsongstatus/392)
-
-I'M Music Bot By @TamilBots 🤖
-
-உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... 🥰🤗🥰
-
-எ.கா :- ```/song Kanave Kanave```
-"""
-
 owner_help = """
 /blacklist user_id
 /unblacklist user_id
